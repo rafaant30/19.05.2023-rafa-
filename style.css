@@ -1,0 +1,130 @@
+ul{
+    list-style-type: none;
+    padding:0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: purple;
+}
+li a{
+    float:left;
+    display:  block;
+    color: rgba(219, 95, 250, 0.801);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid rgb(255, 129, 234);
+    min-width: 60px;
+}
+
+li a:hover{
+    background-color: pink;
+    animation: myGlowAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes myGlowAnimation{
+    50% {text-shadow: 0px 0px 10px palevioletred;}
+}
+html{
+    font-family: 'Aldrich',"Ink Free", sans-serif;
+    font-size: 50px;
+    text-decoration: normal;
+    background-repeat: no-repeat;
+    background-image: url(https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_500/MTkzODU1MjgzMjUxMTkzMzI4/svg-wave-generator.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: pink;
+}
+.primapagina{
+ 
+font-family: 'Aldrich',"Ink Free", sans-serif;
+font-size: 50px;
+text-decoration: normal;
+background-repeat: no-repeat;
+background-image: url(https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_500/MTkzODU1MjgzMjUxMTkzMzI4/svg-wave-generator.webp);
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+color: plum;
+text-shadow: 2px 2px 3px rgb(255, 0, 85);
+text-align: center;
+}
+
+.a2apagina{
+    font-family: 'Aldrich',"Ink Free", sans-serif;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_500/MTkzODU1MjgzMjUxMTkzMzI4/svg-wave-generator.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: purple;
+    text-shadow: 2px 2px 3px rgb(255, 0, 85);
+    text-align: center;
+}
+#text1{
+    font-family: 'Aldrich',"Ink Free", sans-serif;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_500/MTkzODU1MjgzMjUxMTkzMzI4/svg-wave-generator.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: purple;
+    padding: 5px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: pink;
+    border-radius: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    text-shadow: 2px 2px 3px palevioletred;
+    box-shadow: 10px 10px 5px plum;
+    animation: myOpacity;
+    animation-duration: 5s;
+    
+}
+@keyframes myOpacity{
+    0% {opacity: 0;}
+    50% {opacity: 50;}
+    100% {opacity: 100;}
+}
+
+.aboutme{
+    font-family: 'Aldrich',"Ink Free", sans-serif;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_500/MTkzODU1MjgzMjUxMTkzMzI4/svg-wave-generator.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: purple;
+    padding: 5px;
+    text-shadow: 2px 2px 3px palevioletred;
+    animation: myOpacity;
+    animation-duration: 5s;
+    text-align: center;
+
+}
+
+.paragraf8{ font-family: 'Aldrich',"Ink Free", sans-serif;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-image: url(https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_500/MTkzODU1MjgzMjUxMTkzMzI4/svg-wave-generator.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: purple;
+    text-shadow: 3px 3px 10px palevioletred;
+    box-shadow: 0px 15px 20px plum;
+    animation: myOpacity;
+    animation-duration: 5s;
+    text-align: center;
+}
+/*
+horizontal (px)
+vertical (px)
+blur (px)
+color (name,rgb,hex)
+*/
